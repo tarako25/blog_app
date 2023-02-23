@@ -1,10 +1,6 @@
 .categorys{
     width:100%;
-<<<<<<< HEAD
     height: 400px;
-=======
-    height: 200px;
->>>>>>> b2b26b628cd295710b553581303eb41d5945f1b2
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +13,6 @@
     flex-direction: column;
     justify-content: center;
 }
-<<<<<<< HEAD
 .headerimg{
     width: 100%;
     height: 100%;
@@ -27,15 +22,10 @@
     .categorys{
         height:350px;
     }
-=======
-
-@media screen and (max-width:1280px){
->>>>>>> b2b26b628cd295710b553581303eb41d5945f1b2
     .box{
         width:100%;
         background-color: rgb(255, 246, 114);
     }
-<<<<<<< HEAD
     
 }
 
@@ -43,11 +33,6 @@
     .categorys{
         height:300px;
     }
-=======
-}
-
-@media screen and (max-width:768px){
->>>>>>> b2b26b628cd295710b553581303eb41d5945f1b2
     .box{
         background-color: rgb(255, 128, 128);
     }

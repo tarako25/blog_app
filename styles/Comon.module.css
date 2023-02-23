@@ -9,7 +9,6 @@
     width:85%;
     padding:13px 0;
     margin-top:30px;
-<<<<<<< HEAD
     font-weight: 600;
     background-color: rgb(97, 97, 97);
 }
@@ -110,8 +109,4 @@
     .titleimg{
         height: 425px;
     }    
-=======
-    font-weight: bold;
-    background-color: rgb(97, 97, 97);
->>>>>>> b2b26b628cd295710b553581303eb41d5945f1b2
 }
