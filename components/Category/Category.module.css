@@ -1,0 +1,39 @@
+.categorys{
+    width:100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    width:1350px;
+    height: 100%;
+    background-color: rgb(123, 160, 122);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.headerimg{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:1280px){
+    .categorys{
+        height:350px;
+    }
+    .box{
+        width:100%;
+        background-color: rgb(255, 246, 114);
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .categorys{
+        height:300px;
+    }
+    .box{
+        background-color: rgb(255, 128, 128);
+    }
+}

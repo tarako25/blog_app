@@ -1,0 +1,112 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hl{
+    color:white;
+    font-size:1.7rem;
+    width:85%;
+    padding:13px 0;
+    margin-top:30px;
+    font-weight: 600;
+    background-color: rgb(97, 97, 97);
+}
+.hlbox{
+    color:rgb(0, 0, 0);
+    font-size:1.8rem;
+    width:85%;
+    padding:13px 0;
+    margin-top:30px;
+    background-color: rgb(255, 255, 255);
+    border-bottom:double 5px rgb(97, 97, 97);
+    font-weight: bold;
+}
+.titleimg{
+    width:85%;
+    height: 525px;
+    margin-top:20px;
+}
+.indexbox{
+    width:85%;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top:40px;
+    
+}
+.indextitle{
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding-top:20px;
+}
+.indexbox ol{
+    font-size: 1.2rem;
+    text-align: left;
+    padding-top:20px;
+}.indexbox li{
+    padding:10px 50px;
+}
+.indexbox span{
+    margin-right:15px;
+    font-size:1.4rem;
+}
+.container{
+    width:85%;
+    margin-top:40px;
+    font-size: 1.2rem;
+    line-height: 35px;
+}
+.container p{
+    margin-bottom:10px;
+}
+.profileimg{
+    width:150px;
+    height: 150px;
+    margin-top:30px;
+    margin-bottom:20px;
+    border-radius: 100px;
+}
+.name{
+    font-weight: bold;
+}
+.date{
+    width:85%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+}
+.date p{
+    margin:0px 10px;
+}
+.opprogram{
+    color:rgb(255, 255, 255);
+    font-size: 0.4rem;
+    background-color: rgb(71, 181, 255);
+    padding:7px 15px;    
+    margin:0 10px;
+}
+.ophtml{
+    color:rgb(255, 255, 255);
+    font-size: 0.4rem;
+    background-color: rgb(255, 211, 88);
+    padding:7px 15px;    
+    margin:0 10px;
+}
+.opcss{
+    color:rgb(255, 255, 255);
+    font-size: 0.4rem;
+    background-color: rgb(255, 113, 88);
+    padding:7px 15px;    
+    margin:0 10px;
+}
+@media screen and (max-width:1280px){
+    .titleimg{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .titleimg{
+        height: 425px;
+    }    
+}
