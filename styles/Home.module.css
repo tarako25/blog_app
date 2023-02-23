@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0);
+<<<<<<< HEAD
     margin-top:20px;
 }
 .center{
@@ -20,11 +21,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+=======
+}
+.center{
+    width:74%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+>>>>>>> b2b26b628cd295710b553581303eb41d5945f1b2
 }
 .side{
     width:26%;
     height: 100%;
     background-color: rgb(238, 238, 238);
+<<<<<<< HEAD
 }
 .formall{
     width:100%;
@@ -71,6 +80,16 @@
     }
 }
 
+=======
+}
+
+@media screen and (max-width:1280px){
+    .inside{
+        width:100%;
+    }
+}
+
+>>>>>>> b2b26b628cd295710b553581303eb41d5945f1b2
 @media screen and (max-width:768px){
     .inside{
         display: flex;
