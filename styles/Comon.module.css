@@ -106,12 +106,37 @@
 }
 
 @media screen and (max-width:768px){
+    .date{
+        font-size: 0.8rem;
+    }
+    .hlbox{
+        margin-top:20px;
+        font-size: 1.3rem;
+    }
     .hl{
         font-size: 1.2rem;
         margin-top:15px;
         padding:10px 0;
     }
     .titleimg{
-        height: 425px;
+        height: 210px;
+    }
+    .indexbox{
+        margin-top:20px;
+    }
+    .indextitle{
+        font-size: 1.3rem;;
+    }
+    .indexbox ol{
+        font-size: 1rem;
+    }
+    .indexbox span{
+        font-size: 1.2rem;
+        margin-right:5px;
+    }
+    .container{
+        font-size: 1rem;
+        margin-top: 20px;
+        line-height: 30px;
     }    
 }

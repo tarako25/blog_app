@@ -2,14 +2,17 @@ import Link from "next/link"
 import styles from "components/Header/Header.module.css"
 import Image from "next/image"
 import title from "img/Title.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export function Header(){
     return(
         <div className={styles.header}>
             <div className={styles.logo}>
-            <Link href="../">
-                <Image src={title} alt="ロゴの画像" className={styles.logoimg}/>
-            </Link >
+                <Link href="../">
+                    <Image src={title} alt="ロゴの画像" className={styles.logoimg}/>
+                </Link >
+                <FontAwesomeIcon icon={faBars} className={styles.fabars} />
             </div>
             <div className={styles.menus}>
                 <ul>

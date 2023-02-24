@@ -23,6 +23,9 @@
     width:220px;
     height: 90px
 }
+.fabars{
+    font-size:0rem;
+}
 .menus{
     width: 100%;
     height: 30%;
@@ -61,11 +64,18 @@
         box-shadow: 1px 1px 10px rgb(128, 128, 128);
     }
     .logo{
-        height: 100%;;
+        height: 100%;
+        justify-content: space-between;
     }
     .logoimg{
         width:120px;
         height: 50px;
+        margin-left:20%;
+    }
+    .fabars{
+        font-size:1.9rem;
+        margin-right:10%;
+        cursor: pointer;
     }
     .menus{
         display: none;

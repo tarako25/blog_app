@@ -191,6 +191,9 @@
     /* /プロフィール */
 
     /* 人気の記事 */
+    .hl{
+        font-size: 1rem;
+    }
     .box{
         margin-bottom:20px;
     }
@@ -210,4 +213,13 @@
         background-color: rgba(137, 43, 226, 0);
     }
     /* 人気の記事 */
+
+    /* カテゴリー */
+    .categoryA{
+        font-size:0.9rem;
+    }
+    .categoryB{
+        font-size:0.9rem;
+    }
+    /* /カテゴリー */
 }

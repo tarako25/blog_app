@@ -18,9 +18,6 @@ export default function article1(){
           <div className={comon.date}>
             <p>2023/02/21</p>
             <p>カテゴリー：</p>
-            <div className={comon.opprogram}>プログラミング</div>
-            <div className={comon.ophtml}>HTML</div>
-            <div className={comon.opcss}>CSS</div>
           </div>
           <div className={comon.hlbox}>【ProgramingStudy①】 Lorem ipsum dolor sit.</div>
           <Image src={art1} alt="記事の画像" className={comon.titleimg}/>
