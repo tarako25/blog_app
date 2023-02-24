@@ -17,7 +17,7 @@ export function Side(props){
                 {/* プロフィール */}
                 <div className={styles.profile}>
                     <Link href="../profile" className={styles.profilesub}>
-                <Image src={profile} alt="プロフィール画像"　className={styles.img}/>
+                <Image src={profile} alt="プロフィール画像" className={styles.img}/>
                 <div className={styles.name}>Lorem</div>
                     <div className={styles.pr}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam voluptatibus enim excepturi dolores doloribus.</div>
                     </Link>
