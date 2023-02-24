@@ -20,7 +20,7 @@ export default function article4(){
             <div className={comon.opprogram}>プログラミング</div>
           </div>
           <div className={comon.hlbox}>【ProgramingStudy④】 Lorem ipsum dolor sit.</div>
-          <Image src={art4} className={comon.titleimg}/>
+          <Image src={art4} alt="記事画像" className={comon.titleimg}/>
           <div className={comon.indexbox}>
             <div className={comon.indextitle}>Index</div>
             <ol>

@@ -8,7 +8,7 @@ export function Header(){
         <div className={styles.header}>
             <div className={styles.logo}>
             <Link href="../">
-                <Image src={logo} className={styles.logoimg}/>
+                <Image src={logo} alt="ロゴ" className={styles.logoimg}/>
             </Link >
             </div>
             <div className={styles.menus}>

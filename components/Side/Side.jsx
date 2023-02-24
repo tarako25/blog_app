@@ -17,19 +17,19 @@ export function Side(props){
                 {/* プロフィール */}
                 <div className={styles.profile}>
                     <Link href="../profile" className={styles.profilesub}>
-                <Image src={profile} className={styles.img}/>
+                <Image src={profile} alt="プロフィール画像"　className={styles.img}/>
                 <div className={styles.name}>Lorem</div>
                     <div className={styles.pr}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam voluptatibus enim excepturi dolores doloribus.</div>
                     </Link>
                     <div className={styles.snsicons}>
                         <Link href="https://twitter.com/home">
-                            <Image src={twitter} className={styles.icon}/>
+                            <Image src={twitter} alt="twitter" className={styles.icon}/>
                         </Link>
                         <Link href="https://www.instagram.com/">
-                            <Image src={instagram} className={styles.icon}/>
+                            <Image src={instagram} alt="instagram" className={styles.icon}/>
                         </Link>
                         <Link href="https://www.facebook.com/">
-                            <Image src={facebook} className={styles.icon}/>
+                            <Image src={facebook} alt="facebook" className={styles.icon}/>
                         </Link>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ export function Side(props){
                         {/* 記事 */}
                                 <Link href="">
                                     <div className={styles.article}>
-                                        <Image src={img} className={styles.pimg}/>
+                                        <Image src={img} alt="記事画像" className={styles.pimg}/>
                                         <div className={styles.description}>Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
                                     </div>
                                 </Link>
@@ -50,7 +50,7 @@ export function Side(props){
                         {/* 記事 */}
                         <Link href="">
                                     <div className={styles.article}>
-                                        <Image src={img} className={styles.pimg}/>
+                                        <Image src={img} alt="記事画像" className={styles.pimg}/>
                                         <div className={styles.description}>Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
                                     </div>
                                 </Link>
@@ -65,9 +65,9 @@ export function Side(props){
                 <div className={styles.articles}>
                     {/* 記事 */}
                     {props.newarticles.map((newarticle)=>(
-                        <Link href={newarticle.href}>
+                        <Link key={newarticle.href} href={newarticle.href}>
                         <div className={styles.article}>
-                            <Image src={newarticle.picture} className={styles.pimg}/>
+                            <Image src={newarticle.picture} alt="記事画像" className={styles.pimg}/>
                             <div className={styles.description}>{newarticle.text}</div>
                         </div>
                     </Link>

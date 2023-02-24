@@ -14,9 +14,9 @@ export function Main(props){
                 <div className={styles.newarticlebox}>
 
                 {props.newarticles.map((newarticle)=>(
-                    <Link href={newarticle.href}>
+                    <Link key={newarticle.href} href={newarticle.href}>
                     <div className={styles.article}>
-                        <Image src={newarticle.picture} className={styles.img}/>
+                        <Image src={newarticle.picture} alt="記事画像" className={styles.img}/>
                         <div className={styles.descriptionbox}>
                             <div className={styles.description}>{newarticle.text}</div>
                         </div>
@@ -30,9 +30,9 @@ export function Main(props){
                 <div className={comon.hl}>記事一覧</div>
                 <div className={styles.articlebox}>
                 {props.articles.map((article)=>(
-                    <Link href={article.href}>
+                    <Link key={article.href} href={article.href}>
                     <div className={styles.article}>
-                        <Image src={article.picture} className={styles.img}/>
+                        <Image src={article.picture} alt="記事画像" className={styles.img}/>
                         <div className={styles.descriptionbox}>
                             <div className={styles.description}>{article.text}</div>
                         </div>

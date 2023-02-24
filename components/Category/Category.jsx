@@ -6,7 +6,7 @@ export function Category(){
     return(
         <div className={styles.categorys}>
             <div className={styles.box}>
-                <Image src={headerimg} className={styles.headerimg}/>
+                <Image src={headerimg} alt="画像" priority="hight" className={styles.headerimg}/>
             </div>
         </div>
     )

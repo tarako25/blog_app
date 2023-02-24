@@ -16,7 +16,7 @@ export default function profile(){
         <div className={styles.center}>
           {/* 内容 */}
           <div className={comon.hlbox}>プロフィール</div>
-          <Image src={iconimg} className={comon.profileimg}/>
+          <Image src={iconimg} alt="アイコン画像" className={comon.profileimg}/>
           <div className={comon.name}>Lorem</div>
           <div className={comon.container}>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti ipsum ullam saepe, dignissimos quos culpa voluptas consequatur possimus ad incidunt est adipisci obcaecati eius ipsa odio veritatis. Nam, deleniti eveniet nesciunt vitae illo iste aliquam ipsum </p>

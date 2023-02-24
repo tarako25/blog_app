@@ -3,8 +3,6 @@ import { Header } from "@/components/Header/Header";
 import styles from "@/styles/Home.module.css"
 import { Up_Side } from "@/components/Up_Side";
 import comon from "@/styles/Comon.module.css"
-import Image from "next/image";
-import img from "@/img/img.jpg"
 
 export default function privacy(){
 

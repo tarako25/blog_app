@@ -23,7 +23,7 @@ export default function article1(){
             <div className={comon.opcss}>CSS</div>
           </div>
           <div className={comon.hlbox}>【ProgramingStudy①】 Lorem ipsum dolor sit.</div>
-          <Image src={art1} className={comon.titleimg}/>
+          <Image src={art1} alt="記事画像" className={comon.titleimg}/>
           <div className={comon.indexbox}>
             <div className={comon.indextitle}>Index</div>
             <ol>
