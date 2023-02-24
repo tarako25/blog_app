@@ -3,9 +3,9 @@ import comon from "styles/Comon.module.css"
 import Link from "next/link"
 import img from "img/img.jpg"
 import Image from "next/image"
-import twitter from "img/twitter.png"
-import instagram from "img/instagram.png"
-import facebook from "img/facebook.png"
+import twitter from "img/Twitter.png"
+import instagram from "img/Instagram.png"
+import facebook from "img/Facebook.png"
 import profile from "img/profile.jpg"
 
 export function Side(props){
