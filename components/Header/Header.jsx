@@ -1,7 +1,7 @@
 import Link from "next/link"
 import styles from "components/Header/Header.module.css"
 import Image from "next/image"
-import logo from "img/Logo.png"
+import logo from "img/Twitter.png"
 
 export function Header(){
     return(
