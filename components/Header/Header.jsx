@@ -1,14 +1,14 @@
 import Link from "next/link"
 import styles from "components/Header/Header.module.css"
 import Image from "next/image"
-import logo from "img/Twitter.png"
+import title from "img/Title.png"
 
 export function Header(){
     return(
         <div className={styles.header}>
             <div className={styles.logo}>
             <Link href="../">
-                <Image src={logo} alt="ロゴの画像" className={styles.logoimg}/>
+                <Image src={title} alt="ロゴの画像" className={styles.logoimg}/>
             </Link >
             </div>
             <div className={styles.menus}>
