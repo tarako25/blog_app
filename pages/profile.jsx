@@ -1,10 +1,10 @@
-import { Category } from "@/components/Category/Category";
-import { Header } from "@/components/Header/Header";
-import styles from "@/styles/Home.module.css"
-import { Up_Side } from "@/components/Up_Side";
-import comon from "@/styles/Comon.module.css"
+import { Category } from "components/Category/Category";
+import { Header } from "components/Header/Header";
+import styles from "styles/Home.module.css"
+import { Up_Side } from "components/Up_Side";
+import comon from "styles/Comon.module.css"
 import Image from "next/image";
-import iconimg from "@/img/profile.jpg"
+import iconimg from "img/profile.jpg"
 
 export default function profile(){
 

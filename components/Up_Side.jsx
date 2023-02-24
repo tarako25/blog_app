@@ -1,8 +1,8 @@
-import art4 from "@/img/article-imgs/art4.jpg"
-import art3 from "@/img/article-imgs/art3.jpg"
-import art2 from "@/img/article-imgs/art2.jpg"
-import art1 from "@/img/article-imgs/art1.jpg"
-import { Side } from "./Side/Side";
+import art4 from "img/article-imgs/art4.jpg"
+import art3 from "img/article-imgs/art3.jpg"
+import art2 from "img/article-imgs/art2.jpg"
+import art1 from "img/article-imgs/art1.jpg"
+import { Side } from "components/Side/Side";
 
 export function Up_Side(){
 

@@ -1,6 +1,6 @@
-import styles from "./Category.module.css"
+import styles from "components/Category/Category.module.css"
 import Image from "next/image"
-import headerimg from "@/img/header.jpg"
+import headerimg from "img/header.jpg"
 
 export function Category(){
     return(

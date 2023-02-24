@@ -1,8 +1,8 @@
-import { Category } from "@/components/Category/Category";
-import { Header } from "@/components/Header/Header";
-import styles from "@/styles/Home.module.css"
-import { Up_Side } from "@/components/Up_Side";
-import comon from "@/styles/Comon.module.css"
+import { Category } from "components/Category/Category";
+import { Header } from "components/Header/Header";
+import styles from "styles/Home.module.css"
+import { Up_Side } from "components/Up_Side";
+import comon from "styles/Comon.module.css"
 
 export default function privacy(){
 

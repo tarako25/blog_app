@@ -1,8 +1,8 @@
-import { Category } from "@/components/Category/Category";
-import { Header } from "@/components/Header/Header";
-import styles from "@/styles/Home.module.css"
-import { Up_Top } from "@/components/UP_Top";
-import { Up_Side } from "@/components/Up_Side";
+import { Category } from "components/Category/Category";
+import { Header } from "components/Header/Header";
+import styles from "styles/Home.module.css"
+import { Up_Top } from "components/UP_Top";
+import { Up_Side } from "components/Up_Side";
 
 
 export default function index(){

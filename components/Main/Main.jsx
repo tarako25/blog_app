@@ -1,5 +1,5 @@
-import styles from "./Main.module.css"
-import comon from "@/styles/Comon.module.css"
+import styles from "components/Main/Main.module.css"
+import comon from "styles/Comon.module.css"
 import Link from "next/link"
 import Image from "next/image"
 

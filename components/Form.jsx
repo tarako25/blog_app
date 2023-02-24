@@ -1,6 +1,6 @@
 import { useForm, ValidationError } from '@formspree/react';
-import styles from "@/styles/Home.module.css"
-import comon from "@/styles/Comon.module.css"
+import styles from "styles/Home.module.css"
+import comon from "styles/Comon.module.css"
 export function Form(){
 
     const [state, handleSubmit] = useForm("mknarkpg");

@@ -1,7 +1,7 @@
 import Link from "next/link"
-import styles from "./Header.module.css"
+import styles from "components/Header/Header.module.css"
 import Image from "next/image"
-import logo from "@/img/logo.png"
+import logo from "img/logo.png"
 
 export function Header(){
     return(

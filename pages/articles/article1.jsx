@@ -1,10 +1,10 @@
-import { Category } from "@/components/Category/Category";
-import { Header } from "@/components/Header/Header";
-import styles from "@/styles/Home.module.css"
-import comon from "@/styles/Comon.module.css"
-import { Up_Side } from "@/components/Up_Side";
+import { Category } from "components/Category/Category";
+import { Header } from "components/Header/Header";
+import styles from "styles/Home.module.css"
+import comon from "styles/Comon.module.css"
+import { Up_Side } from "components/Up_Side";
 import Image from "next/image";
-import art1 from "@/img/article-imgs/art1.jpg"
+import art1 from "img/article-imgs/art1.jpg"
 
 export default function article1(){
   return(
