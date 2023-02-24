@@ -166,21 +166,34 @@
     .side{
         width:85%;
     }
+    /* プロフィール */
+    .profile{
+        margin:20px 0;
+    }
+    .profilesub{
+        margin:0px;
+    }
     .img{
-        width:150px;
-        height: 150px;
+        width:130px;
+        height: 130px;
     }
     .name{
-        font-size: 1rem;
+        margin-bottom:20px;
+        font-size: 0.9rem;
     }
     .pr{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .icon{
         width:40px;
         height: 40px;
     }
+    /* /プロフィール */
 
+    /* 人気の記事 */
+    .box{
+        margin-bottom:20px;
+    }
     .article{
         width:100%;
         flex-direction:row;
@@ -188,12 +201,13 @@
     }
     .pimg{
         width:45%;
-        height: 120px;
+        height: 80px;
     }
     .description{
-        font-size: 1rem;
+        font-size: 0.9rem;
         width:55%;
         font-weight:bold;
         background-color: rgba(137, 43, 226, 0);
     }
+    /* 人気の記事 */
 }
