@@ -1,7 +1,7 @@
 .header{
     width:100%;
     height:160px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,6 +10,75 @@
     left:0;
     right:0;
     z-index:10;
+}
+.fabars{
+    font-size:0rem;
+}
+.hamburger{
+    pointer-events: none;
+    display: none;
+    width:100%;
+    background-color: rgb(104, 93, 93);
+    position: fixed;
+    top:70px;
+    right:0;
+    z-index:5;
+    text-align: center;
+    color: rgb(235, 235, 235);
+    opacity:0
+}
+.show {
+    pointer-events: auto;
+    display: block;
+    opacity:1;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-300px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .dis{
+    display: block;
+    opacity:0;
+    animation: fadeOut 0.5s ease-in-out;
+  }
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-300px);
+    }
+  }
+.hamul{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    font-size:1rem;
+    font-weight: bold;
+    background-color: rgba(0, 255, 255, 0);
+    margin-top:0%;
+}
+.hamul li{
+    width: 100%;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:15px;
+    padding-top:15px;
+    border-bottom: solid 1px rgb(158, 158, 158);
+    background-color: rgba(119, 51, 182, 0);
+}
+.hamul li:hover{
+    background-color: rgb(156, 142, 142);;
 }
 .logo{
     width: 100%;
@@ -22,9 +91,6 @@
 .logoimg{
     width:220px;
     height: 90px
-}
-.fabars{
-    font-size:0rem;
 }
 .menus{
     width: 100%;
@@ -61,7 +127,6 @@
 @media screen and (max-width:768px){
     .header{
         height: 70px;
-        box-shadow: 1px 1px 10px rgb(128, 128, 128);
     }
     .logo{
         height: 100%;

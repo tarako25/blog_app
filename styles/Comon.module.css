@@ -138,5 +138,9 @@
         font-size: 1rem;
         margin-top: 20px;
         line-height: 30px;
+    }
+    .profileimg{
+        width:130px;
+        height: 130px;
     }    
 }
