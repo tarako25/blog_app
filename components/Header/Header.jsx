@@ -16,7 +16,7 @@ export function Header(){
 
     return(
         <div>
-             <div className={`${styles.hamburger} ${showMenu ? styles.show : styles.dis}`}>
+             <div className={`${styles.hamburger} ${showMenu ? styles.show : ""}`}>
                 <ul className={styles.hamul}>
                     <Link href="../">
                         <li>ホーム</li>
