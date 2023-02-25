@@ -26,9 +26,10 @@ export function Form(){
             className={styles.inputbox}
         />
         <ValidationError 
-            prefix="Email" 
+            prefix="メールアドレスの記述が違います※Email" 
             field="email"
             errors={state.errors}
+            className={styles.error}
         />
         <p className={styles.formhl}>お問い合わせ内容</p>
         <textarea
