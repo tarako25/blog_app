@@ -5,7 +5,11 @@ export function Form(){
 
     const [state, handleSubmit] = useForm("mknarkpg");
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return <div className={styles.formall}>
+        <div className={comon.hlbox}>お問い合わせ</div>
+        <div className={comon.container}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eveniet iste inventore reprehenderit! Magni id in assumenda laborum voluptatem neque Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+        <div className={styles.comp}>送信が完了しました</div>
+        </div>;
     }
   return(
     <div className={styles.formall}>
