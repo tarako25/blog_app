@@ -14,6 +14,7 @@ export default function Document() {
       <title>Blog_sample</title>
       <meta name="description" content="鯖の煮つけと麻婆豆腐炒めチャンネルブログについてのページです"/>
       <meta name="keywords" content="自作ブログ, 鯖の煮つけと麻婆豆腐炒めチャンネルブログについて, ポテチ初心者"/>
+      <meta name="google-site-verification" content="yPWWkIUSplswGDurIkWPz5ooliChjglbdm-yFdbZ_Aw" />
         <Link
           href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
           integrity="sha384-NMq7AxBKilDxwyRvamvX8Qz7VGPnYPfQj7Vwv+8WkfI+gsxjKewlZ00zvX8iDTTn"
