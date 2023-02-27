@@ -5,10 +5,19 @@ import { Up_Side } from "components/Up_Side";
 import comon from "styles/Comon.module.css"
 import Image from "next/image";
 import iconimg from "img/profile.jpg"
+import Head from "next/head";
 
 export default function profile(){
 
   return(
+    <>
+    <Head>
+        <title>Blog_sample</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google-site-verification" content="yPWWkIUSplswGDurIkWPz5ooliChjglbdm-yFdbZ_Aw" />
+      </Head>
     <div className={styles.all}>
       <Header />
       <Category /> 
@@ -36,5 +45,6 @@ export default function profile(){
         </div>
       </div>
     </div>
+  </>
   )
 }
