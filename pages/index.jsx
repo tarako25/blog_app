@@ -4,6 +4,7 @@ import styles from "styles/Home.module.css"
 import { Up_Top } from "components/UP_Top";
 import { Up_Side } from "components/Up_Side";
 import Head from "next/head";
+import { Footer } from "components/Footer/Footer";
 
 
 export default function index(){
@@ -29,6 +30,7 @@ export default function index(){
             <Up_Side />
           </div>
         </div>
+        <Footer/>
       </div>
     </>
   )

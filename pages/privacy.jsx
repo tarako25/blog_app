@@ -4,6 +4,7 @@ import styles from "styles/Home.module.css"
 import { Up_Side } from "components/Up_Side";
 import comon from "styles/Comon.module.css"
 import Head from "next/head";
+import { Footer } from "@/components/Footer/Footer";
 
 export default function privacy(){
 
@@ -53,6 +54,7 @@ export default function privacy(){
           <Up_Side />
         </div>
       </div>
+      <Footer/>
     </div>
   </>
   )

@@ -6,6 +6,7 @@ import { Up_Side } from "components/Up_Side";
 import Image from "next/image";
 import art3 from "img/article-imgs/art3.jpg"
 import Head from "next/head";
+import { Footer } from "@/components/Footer/Footer";
 
 export default function article3(){
   return(
@@ -72,6 +73,7 @@ export default function article3(){
           <Up_Side />
         </div>
       </div>
+      <Footer/>
     </div>
     </>
   )

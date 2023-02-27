@@ -6,6 +6,7 @@ import comon from "styles/Comon.module.css"
 import Image from "next/image";
 import iconimg from "img/profile.jpg"
 import Head from "next/head";
+import { Footer } from "@/components/Footer/Footer";
 
 export default function profile(){
 
@@ -44,6 +45,7 @@ export default function profile(){
           <Up_Side />
         </div>
       </div>
+      <Footer/>
     </div>
   </>
   )

@@ -1,0 +1,29 @@
+.footer{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height: 100px;
+    box-shadow:1px 1px 3px black;
+}
+.footermain{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoimg{
+    width:120px;
+    height: 50px;
+}
+.footersub{
+    background-color: rgb(78, 78, 78);
+    font-size: 0.9rem;
+    color: white;
+    width: 100%;
+    height: 25%;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

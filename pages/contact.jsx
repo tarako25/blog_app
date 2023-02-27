@@ -4,6 +4,7 @@ import styles from "styles/Home.module.css"
 import { Up_Side } from "components/Up_Side";
 import { Form } from "components/Form";
 import Head from "next/head";
+import { Footer } from "@/components/Footer/Footer";
 
 
 export default function contact(){
@@ -28,6 +29,7 @@ export default function contact(){
           <Up_Side />
         </div>
       </div>
+      <Footer/>
     </div>
   </>
   )
