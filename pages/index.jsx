@@ -9,10 +9,6 @@ import Head from "next/head";
 export default function index(){
 
   return(
-    <>
-      <Head>
-        <title>Blog_sample</title>
-      </Head>
       <div className={styles.all}>
         <Header />
         <Category /> 
@@ -25,6 +21,5 @@ export default function index(){
           </div>
         </div>
       </div>
-    </>
   )
 }
