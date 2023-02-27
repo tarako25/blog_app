@@ -8,17 +8,20 @@ import { Up_Side } from "components/Up_Side";
 export default function index(){
 
   return(
-    <div className={styles.all}>
-      <Header />
-      <Category /> 
-      <div className={styles.inside}>
-        <div className={styles.center}>
-          <Up_Top />
-        </div>
-        <div className={styles.side}>
-          <Up_Side />
+    <>
+    <title>Blog_sample</title>
+      <div className={styles.all}>
+        <Header />
+        <Category /> 
+        <div className={styles.inside}>
+          <div className={styles.center}>
+            <Up_Top />
+          </div>
+          <div className={styles.side}>
+            <Up_Side />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }

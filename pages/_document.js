@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang="ja">
       <Head>
-      <title>Blog_sample</title>
       </Head>
       <body>
         <Main />
