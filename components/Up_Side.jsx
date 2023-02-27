@@ -12,28 +12,28 @@ export function Up_Side(){
       id:4,
       picture:art4,
       text:"ProgramingStudy④】 Lorem ipsum dolor sit.",
-      href:"./articles/article4",
+      href:"../articles/article4",
       alt:"記事の画像"
     },
     {
       id:3,
       picture:art3,
       text:"ProgramingStudy③】 Lorem ipsum dolor sit.",
-      href:"./articles/article3",
+      href:"../articles/article3",
       alt:"記事の画像"
     },
     {
       id:2,
       picture:art2,
       text:"ProgramingStudy②】 Lorem ipsum dolor sit.",
-      href:"./articles/article2",
+      href:"../articles/article2",
       alt:"記事の画像"
     },
     {
       id:1,
       picture:art1,
       text:"ProgramingStudy①】 Lorem ipsum dolor sit.",
-      href:"./articles/article1",
+      href:"../articles/article1",
       alt:"記事の画像"
     }
   ]
