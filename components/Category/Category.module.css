@@ -8,7 +8,6 @@
 .box{
     width:1350px;
     height: 100%;
-    background-color: rgb(123, 160, 122);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +23,6 @@
     }
     .box{
         width:100%;
-        background-color: rgb(255, 246, 114);
     }
     
 }
@@ -35,6 +33,5 @@
     }
     .box{
         width:100%;
-        background-color: rgb(255, 128, 128);
     }
 }
