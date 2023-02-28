@@ -10,7 +10,7 @@ export function Main(props){
                 {/* のちにmap関数で表示させる方式に変更する */}
 
                 {/* 新着記事 */}
-                <div className={comon.hl}>新着記事</div>
+                <div className={comon.hl}>新着記事(準備中)</div>
                 <div className={styles.newarticlebox}>
 
                 {props.newarticles.map((newarticle)=>(
