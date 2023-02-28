@@ -57,6 +57,10 @@
     width:40px;
     height: 40px;
     margin:0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.icon:hover{
+    transform: translateY(-10px);
 }
 /* /プロフィール */
 
