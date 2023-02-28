@@ -37,7 +37,7 @@ export function Side(props){
 
                 {/* 人気の記事 */}
                 <div className={styles.box}>
-                    <div className={styles.hl}>人気の記事</div>
+                    <div className={styles.hl}>人気の記事(未実装)</div>
                     <div className={styles.articles}>
                         {/* 記事 */}
                                 <Link href="">
