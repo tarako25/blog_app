@@ -12,4 +12,16 @@
   <url>
     <loc>https://blog-app-dun-kappa.vercel.app/contact</loc>
   </url>
+  <url>
+    <loc>https://blog-app-dun-kappa.vercel.app/articles/article4</loc>
+  </url>
+  <url>
+    <loc>https://blog-app-dun-kappa.vercel.app/articles/article3</loc>
+  </url>
+  <url>
+    <loc>https://blog-app-dun-kappa.vercel.app/articles/article2</loc>
+  </url>
+  <url>
+    <loc>https://blog-app-dun-kappa.vercel.app/articles/article1</loc>
+  </url>
 </urlset>
