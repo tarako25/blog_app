@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://blog-app-dun-kappa.vercel.app/sitemap.xml
